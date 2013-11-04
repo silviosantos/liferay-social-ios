@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29366E7C1827E7A200B189C9 /* ActivitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29366E7B1827E7A200B189C9 /* ActivitiesTableViewController.m */; };
 		CC31CBBA17454C64006CDD4B /* AsyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31CBB717454C64006CDD4B /* AsyncRequest.m */; };
 		CC31CBBB17454C64006CDD4B /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31CBB917454C64006CDD4B /* HttpClient.m */; };
 		CC31CBBE17454C89006CDD4B /* ProgressDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC31CBBD17454C89006CDD4B /* ProgressDelegate.m */; };
@@ -59,6 +60,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29366E7A1827E7A200B189C9 /* ActivitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitiesTableViewController.h; sourceTree = "<group>"; };
+		29366E7B1827E7A200B189C9 /* ActivitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitiesTableViewController.m; sourceTree = "<group>"; };
 		CC31CBB617454C64006CDD4B /* AsyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncRequest.h; sourceTree = "<group>"; };
 		CC31CBB717454C64006CDD4B /* AsyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncRequest.m; sourceTree = "<group>"; };
 		CC31CBB817454C64006CDD4B /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
@@ -356,6 +359,8 @@
 		CCE3A78C174440D80022B6BF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				29366E7A1827E7A200B189C9 /* ActivitiesTableViewController.h */,
+				29366E7B1827E7A200B189C9 /* ActivitiesTableViewController.m */,
 				CCE469A5177387E800B6FCDA /* ContactDetailsTableViewController.h */,
 				CCE469A6177387E800B6FCDA /* ContactDetailsTableViewController.m */,
 				CCB2A2D9174D455A006C3486 /* ContactsTableViewController.h */,
@@ -541,6 +546,7 @@
 				CC9244A0175FE2360000E97D /* MBMessageModel.m in Sources */,
 				CC51A45D176B6A0800745190 /* PhoneModel.m in Sources */,
 				CC51A460176B6CA000745190 /* PhoneService.m in Sources */,
+				29366E7C1827E7A200B189C9 /* ActivitiesTableViewController.m in Sources */,
 				CCE469A7177387E800B6FCDA /* ContactDetailsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
